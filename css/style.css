@@ -50,7 +50,58 @@ html {
   width: 0.75rem;
   height: 0.75rem;
 }
+.header-info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 4rem;
+}
+.header--info h4 {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.header--info h1 {
+  color: #FFF;
+  font-size: 3.625rem;
+  font-weight: 600;
+}
+.header--info-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.header--info--btn {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 2.313rem;
+  background-color: #FF7B47;
+  padding: 0.625rem 1.5rem;
+}
+.header---info---btn {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: solid 1px #FFF;
+  border-radius: 2.313rem;
+  background-color: transparent;
+  padding: 0.625rem 1.5rem;
+}
+
+
+
+
+
 /*Media Querie*/
+/*Media Header Nav Bar*/
 @media (max-width: 768px){
   .header-container {
     justify-content: space-around;
@@ -78,3 +129,5 @@ html {
     flex-wrap: wrap;
   }
 }
+
+
