@@ -47,7 +47,34 @@ html {
   font-weight: 400;
 }
 .header-nav li a img {
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
 }
-
+/*Media Querie*/
+@media (max-width: 768px){
+  .header-container {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 426px){
+  .header {
+    background-color: #252B42;
+    background-image: none;
+    width: 100%;
+    width: 26.6rem;
+    height: 29.1rem;
+  }
+  .header-logo h2 {
+    font-size: 1rem;
+  }
+  .header-nav ul {
+    gap: 0.8rem;
+  }
+  .header-nav ul a {
+    text-align: center;
+    font-size: 0.800rem;
+  }
+  .header-container {
+    flex-wrap: wrap;
+  }
+}
