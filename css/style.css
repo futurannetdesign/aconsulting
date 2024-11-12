@@ -132,7 +132,6 @@ html {
 /*Main*/
 .main {
   background-color: #252B42;
-  height: 160rem;
   position: relative;
 }
 .main-card {
@@ -275,4 +274,72 @@ html {
 .main--section-info--texto p {
   margin-top: 1.875rem;
 }
-
+.section-clientes {
+  background-color: #17213C;
+  min-height: 42.375rem;
+}
+.section-clientes-info {
+  padding-top: 5rem;
+}
+.section-clientes-info h3 {
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+.section-clientes-info p {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.625rem;
+}
+.section-clientes-info-cards {
+  display: flex;
+  gap: 2rem;
+}
+.section--clientes-info-cards {
+  background-color: #FFF;
+  width: 20rem;
+  height: 16rem;
+  margin-top: 5.625rem;
+}
+.section--clientes--info-cards {
+ display: flex;
+ gap: 2rem;
+}
+.section--clientes--info--cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+.section--clientes-info-cards-img img {
+  margin-top: 1.25rem;
+  width: 4rem;
+  margin-left: 1rem;
+}
+.section--clientes--info--cards strong {
+  color: #252B42;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.section--clientes--info--cards span {
+  color: #737373;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-top: 0.6rem;
+}
+.section--clientes-info-cards p {
+  color: #737373;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+}
+.section--clientes--info--cards-img {
+  width: 5rem;
+  margin-top: 0.4rem;
+}
