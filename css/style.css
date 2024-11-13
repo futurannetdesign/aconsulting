@@ -343,3 +343,89 @@ html {
   width: 5rem;
   margin-top: 0.4rem;
 }
+
+/*Section Team*/
+.section-team {
+  background-color: #252B42;
+  height: 100rem;
+}
+.section--team {
+ margin-bottom: 8rem;
+}
+.section-team-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-team-info h3 {
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.section-team-info p {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top: 0.625rem;
+}
+.section-team-card {
+  display: flex;
+  gap: 2.125rem;
+  margin-top: 3.125rem;
+}
+.section--team-card {
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 14.875rem;
+  height: 18.1875rem;
+  text-align: center;
+}
+.section--team-card img {
+  width: 6rem;
+  display: block;
+  margin: 1.8rem auto;
+}
+.section--team-card span {
+  color: #FF7B47;
+  font-size: 0.875rem ;
+  font-weight: 400;
+  margin-top: -1.4rem;
+}
+.section--team-card strong {
+  color: #252B42;
+  font-size: 1rem ;
+  font-weight: 500;
+  margin-top: 0.4rem;
+}
+.section--team-card p {
+  color: #252B42;
+  font-size: 0.875rem ;
+  font-weight: 200;
+  margin-top: 0.4rem;
+}
+
+/*Section Quote*/
+.section-quote {
+  margin-top: 3.125rem;
+}
+.section-quote-container {
+  display: flex;
+  gap: 10rem;
+}
+.section-quote-titulo h3 {
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.section-quote-titulo p {
+  color: #FFF;
+  font-size:0.875rem;
+  font-weight: 200;
+  margin-top: 0.875rem;
+}
+.section--quote {
+  width: 65.75rem;
+  height: 40.25rem;
+}
