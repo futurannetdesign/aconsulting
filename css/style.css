@@ -429,3 +429,43 @@ html {
   width: 65.75rem;
   height: 40.25rem;
 }
+
+footer {
+  background-color: #252B42;
+  margin-top: 8rem;
+}
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  height: 20rem;
+  padding-top: 5rem;
+}
+.footer-contact strong {
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.footer-contact p {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 200;
+  margin-top:0.625rem;
+}
+.footer-social img {
+  display:inline;
+  width: 1rem;
+  margin: 0 0.4rem 0 0;
+  margin-top: 1rem;
+}
+.footer-contact-info ul li {
+  color: #FFF;
+  list-style: none;
+  text-decoration: none;
+  margin-top:0.6rem;
+}
+.footer-contact-info a {
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 200;
+  text-decoration: none;
+}
